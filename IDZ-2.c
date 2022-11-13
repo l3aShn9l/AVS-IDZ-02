@@ -21,7 +21,7 @@ void flip_words (char str[]){
         }
     }
     if (cursor != -1){
-        for(int i = cursor;i<(1000 - cursor -1)/2;i++){
+        for(int i = 0;i<(1000 - cursor -1)/2;i++){
             char temp;
             temp = str[cursor + i];
             str[cursor + i] = str[1000-1-i];
